@@ -303,4 +303,48 @@ header a:hover{
     ), url('img/arreglo4.jpg');
 }
 
+#cuidados .container{
+    text-align: center;
+    padding: 200px 12px;
+}
 
+#cuidados li{
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+#final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    height: 80vh;
+}
+
+#final h2{
+    font-size: 9vh;
+}
+
+#final button{
+    font-size: 5vh;
+}
+
+footer{
+    background-color: rgb(230, 230, 230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
