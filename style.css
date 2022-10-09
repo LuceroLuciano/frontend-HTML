@@ -52,3 +52,41 @@ button:hover{
 }
 
 /*Color acento*/
+
+
+header{
+    background-color: rgb(245, 245, 245);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    color: #E19D3B;
+    font-weight: bold;
+    font-size: 1.6em;
+    letter-spacing: 0.1em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color:  #E19D3B;
+}
