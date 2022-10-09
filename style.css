@@ -115,3 +115,192 @@ header a:hover{
 #hero button{
     font-size: 1.5em;
 }
+
+#somos-admira .container{
+    text-align: center;
+    padding: 200px 12pz;
+}
+
+#our-flowers{
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    color: white;
+}
+
+#our-flowers h2{
+    margin-top: 0;
+    font-size: 3em;
+}
+
+#our-flowers p{
+    display: none; /*Oculta el contenido de p (parrafo)*/
+}
+
+#our-flowers  .card{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.card:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url('img/rosas.png');
+}
+
+.card:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url('img/tulipanes.jpg');
+}
+
+.card:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url('img/orquidea.jpg');
+}
+
+.card:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url('img/girasol.jpg');
+}
+
+#our-plants{
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    color: white;
+}
+
+#our-plants .container{
+    padding: 150px 12px;
+}
+
+#our-plants h2{
+    margin-top: 0;
+    font-size: 3em;
+}
+
+#our-plants p{
+    display: none;
+}
+
+#our-plants .card-plants{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.card-plants:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url('img/planta.jpg');
+}
+
+.card-plants:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url('img/cunaDeninio.jpg');
+}
+
+.card-plants:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url('img/cactus.jpg');
+}
+
+.card-plants:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url('img/bonsai.png');
+}
+
+.card-plants:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url('img/albahaca.jpg');
+}
+
+#arreglos-florales{
+    background-color: rgb(253, 172, 21);
+    text-align: center;
+    color: white;
+}
+
+#arreglos-florales .container{
+    padding: 150px 12px;
+}
+
+#arreglos-florales h2{
+    margin-top: 0;
+    font-size: 3em;
+}
+
+#arreglos-florales p{
+    display: none;
+}
+
+#arreglos-florales .card-arreglos{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: orange;
+}
+
+.card-arreglos:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url('img/arreglo1.jpg');
+}
+
+.card-arreglos:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url('img/arreglo2.jpg');
+}
+
+.card-arreglos:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url('img/arreglo3.jpg');
+}
+
+.card-arreglos:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url('img/arreglo4.jpg');
+}
+
+
